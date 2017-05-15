@@ -1,0 +1,101 @@
+body {
+  background-color: white;
+}
+.error {
+  color: red;
+}
+
+.chat-box {
+  background: #f5f8fb;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+  font-family: monospace;
+  overflow: hidden;
+  position: relative;
+  margin-top: 80px;
+  bottom: 32px;
+  right: 32px;
+  width: 550px;
+  height: 600px;
+  z-index: 999;
+}
+
+.content {
+  height: 540px;
+  overflow-y: scroll;
+  margin-top: 2px;
+  padding-top: 6px;
+}
+
+.input {
+  width: 100%;
+  border: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: #E53935;
+  color: black;
+  font-size: 14px;
+  outline: none;
+  padding: 16px 10px;
+}
+
+.block {
+    align-items: flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    -webkit-align-items: flex-end;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+}
+
+.bot-bubble {
+  background: #6E48AA;
+  border-radius: 18px 18px 18px 0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  max-width: 50%;
+  margin: 0 0 18px 0;
+  overflow: hidden;
+  position: relative;
+  padding: 12px;
+  margin: -8px 0 10px 46px;
+  float: left;
+}
+.person-bubble {
+  background: #9D50BB;
+  border-radius: 18px 18px 0 18px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  max-width: 50%;
+  margin: 0 0 18px 0;
+  overflow: hidden;
+  position: relative;
+  padding: 12px;
+  float: right;
+}
+.person-block {
+    align-items: flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    -webkit-align-items: flex-end;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+}
